@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    background-color :black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.heading
+{
+    font-size:70px;
+    color:white;
+    animation:flicker 1.5s infinite alternate;
+}
+td{
+    color:white;
+    text-align:center;
+    width:5vw;
+    border :1px solid white;
+    font-weight: 700;
+    size :12px;
+
+}
+.none
+{
+    border :none;
+}
+.color{
+    background-color: #06b6bc;
+}
+.color1
+{
+    background-color: #1b67c9;
+}
+.color2
+{
+    background-color: #a1669f;
+}
+.color3
+{
+    background-color: #004e75;
+}
+.color4
+{
+    background-color: #f53951;
+}
+.color5{
+    background-color:#f5b659;
+}
+.color6
+{
+    background-color: #f36d4a;
+}
+.color7
+{
+    background-color:#59cf6e ;
+}
+.color8
+{
+    background-color: #329090;
+}
+.color9
+{
+    background-color:#562d56 ;
+}
+.color10
+{
+    background-color: #859998;
+}
+.color12
+{
+    background-color:rgb(247, 10, 49);
+}
+@keyframes flickers
+{
+    0% ,17%,33%,50%, 66%,83%,100%
+    {
+        text-shadow:
+         00 10px #fff,
+         00 20px #0fa,
+         00 40px #0fa,
+         00 70px #0fa,
+         00 110px #0fa,
+         00 160px #0fa,
+    }
+    20%, 40% ,60%,80%
+    {
+        text-shadow: non2;
+    }
+}
